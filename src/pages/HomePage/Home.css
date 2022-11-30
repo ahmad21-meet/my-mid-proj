@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(0, 0, 0, 0.963);
+}
+.sec{
+    margin-top: 20px;
+    border-radius: 30px;
+    border: null;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(14, 14, 14, 0);
+}
+.container {
+    display:  inline-grid;
+  }
+
+  .title {
+    font-family: Epidemic, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: var(--pds-color-white,#FFF);
+  }
+  .p2{
+    font-family: Epidemic, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--pds-color-white,#FFF);
+  }
+  .p1{
+    font-family: Epidemic, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: var(--pds-color-white,#FFF);
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

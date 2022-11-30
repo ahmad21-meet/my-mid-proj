@@ -1,0 +1,40 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: [start] minmax(0px, 1fr) [first-col-end] repeat(2, minmax(0px, 1fr)) [middle] repeat(2, minmax(0px, 1fr)) [last-col-start] minmax(0px, 1fr) [end];
+  column-gap: 2rem;
+  }
+
+  .img{
+    border-radius: inherit;
+    width: 250px;
+    height: 220px;
+    object-fit: cover;
+    transition: opacity 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    cursor: pointer;
+
+  }
+  .div1{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    background: none;
+  }
+  .lock1 {
+    font-family: Epidemic, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: var(--pds-color-white,#FFF);
+    margin-top: 1rem;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .col:hover{
+      opacity: 0.73;
+    
+  }
