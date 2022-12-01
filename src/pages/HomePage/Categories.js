@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import React  from 'react'
-
-import AudioPlayer from '../../Audio/AudioPlayer';
+import '../../Audio/main.css'
+import '../../Audio/input.css'
 import "./Categories.css"
 import happy1 from "../../Aseets/happy1.jpg"
 import Epic1 from "../../Aseets/Epic1.webp"
@@ -12,11 +12,8 @@ import lock from "../../Aseets/lock.jpg"
 import night1 from "../../Aseets/night1.webp"
 // import focus from "../../Aseets/focus.jfif"
 import foc1 from "../../Aseets/foc1.jpg"
-const handleClick = event => {
-  // 👇️ refers to the image element
-  console.log(event.target);
-  console.log('Image clicked');
-};
+
+
 
 export default function Categories({category, setCategory}) {
 
