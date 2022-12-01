@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <div>
 <nav class="navbar navbar-expand-lg navbar  navbar-dark bg-dark">
-  <a class="navbar-brand" >Exmsic</a>
+  <a class="navbar-brand" href="/Home">Exmsic</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -12,14 +12,14 @@ export default function NavBar() {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" >Home <span class="sr-only"></span></a>
+        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" >About</a>
+        <a class="nav-link" href="/Home">About</a>
       </li>
 
       <li class="nav-item">
-      <a class="nav-link" >Contact</a>
+      <a class="nav-link" href="/Home">Contact</a>
 
       </li>
     </ul>
