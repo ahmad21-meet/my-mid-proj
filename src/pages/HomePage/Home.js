@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import Categories from './Categories'
 import "./Home.css"
 import NavBar from './NavBar'

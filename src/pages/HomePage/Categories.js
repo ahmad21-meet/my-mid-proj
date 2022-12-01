@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import React, { useEffect, useContext } from 'react'
+import React  from 'react'
 
 import AudioPlayer from '../../Audio/AudioPlayer';
 import "./Categories.css"
@@ -11,7 +11,6 @@ import chill from "../../Aseets/chill.jfif"
 import lock from "../../Aseets/lock.jpg"
 import night1 from "../../Aseets/night1.webp"
 // import focus from "../../Aseets/focus.jfif"
-import ca from "../../Aseets/ca.jpg"
 import foc1 from "../../Aseets/foc1.jpg"
 const handleClick = event => {
   // 👇️ refers to the image element

@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React,{useState} from 'react'
-import {BrowserRouter,Routes, Route, useNavigate} from 'react-router-dom';
+import {BrowserRouter,Routes, Route} from 'react-router-dom';
 import Home from './pages/HomePage/Home';
 import AudioPlayer from './Audio/AudioPlayer';
 

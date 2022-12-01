@@ -7,7 +7,7 @@ export default function Action(props) {
       }
   return (
     <div className="actions">
-      <img src="https://freemusicarchive.org/image?file=images%2Falbums%2FSkidmore_College_Orchestra_-_Mussorgskys_Pictures_at_an_Exhibition_-_2009113013701972.jpg&width=290&height=290&type=image" />
+      <img alt='img back' src="https://freemusicarchive.org/image?file=images%2Falbums%2FSkidmore_College_Orchestra_-_Mussorgskys_Pictures_at_an_Exhibition_-_2009113013701972.jpg&width=290&height=290&type=image" />
       <div className="album_meta">
         <span className="alb_label">{props.category}</span>
         <h1>Explore your music by  {props.category} mood</h1>
