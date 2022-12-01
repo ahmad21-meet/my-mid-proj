@@ -1,39 +1,39 @@
-import Action from './../components/playlist/Action';
-let playerReducer = (state,action)=>{
+// import Action from './../components/playlist/Action';
+// let playerReducer = (state,action)=>{
 
-    switch (action.type) {
-        case "SET_SONGS_ARRAY":
-          return {
-            ...state,
-            songs: action.data,
-          }
-        case 'SET_CURRENT_SONG':
-          return {
-            ...state,
-            currentSong: action.data,
-            playing: true,
-          }
-        case 'TOGGLE_RANDOM':
-          return {
-            ...state,
-            random: action.data,
-          }
-        case 'TOGGLE_REPEAT':
-          return {
-            ...state,
-            repeat: action.data,
-          }
-        case 'TOGGLE_PLAYING':
-          return {
-            ...state,
-            playing: action.data,
-          }
-        default:
-          return state
-        }
-    }
-
-
+//     switch (action.type) {
+//         case "SET_SONGS_ARRAY":
+//           return {
+//             ...state,
+//             songs: action.data,
+//           }
+//         case 'SET_CURRENT_SONG':
+//           return {
+//             ...state,
+//             currentSong: action.data,
+//             playing: true,
+//           }
+//         case 'TOGGLE_RANDOM':
+//           return {
+//             ...state,
+//             random: action.data,
+//           }
+//         case 'TOGGLE_REPEAT':
+//           return {
+//             ...state,
+//             repeat: action.data,
+//           }
+//         case 'TOGGLE_PLAYING':
+//           return {
+//             ...state,
+//             playing: action.data,
+//           }
+//         default:
+//           return state
+//         }
+//     }
 
 
-export default playerReducer
+
+
+// export default playerReducer

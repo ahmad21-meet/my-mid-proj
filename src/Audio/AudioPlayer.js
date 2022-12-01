@@ -4,8 +4,6 @@ import './main.css'
 import './input.css'
 import Action from './../components/playlist/Action';
 import Playlist from '../components/playlist/Playlist';
-import Song from '../context/Song';
-import playerSate from './../context/playerstate';
 
 
 export default function AudioPlayer(props) {
